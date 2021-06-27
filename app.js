@@ -129,7 +129,7 @@ function sendEmail() {
                 Host: "smtp.gmail.com",
                 Username: fromEmail,
                 Password: fromPassword,
-                To: 'srilaxmibalaji77@gmail.com',
+                To: 'srinuchalla1309@gmail.com',
                 From: fromEmail,
                 Subject: "Message Sri Lakshmi Balaji - from " + name,
                 Body: `<h1> Sri Lakshmi Balaji <h1><br>
