@@ -8,6 +8,7 @@
     <meta name="author" content="Lavan Kumar">
     <meta name="description" content="Sri Lakshmi Balaji Building materials supply, Manikonda Hyderabad, All Types of building materials for sale. Srinivas Ch">
     <title>Sri Lakshmi Balaji</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
 
     <!-- Font Awesome -->
     <link
@@ -94,6 +95,7 @@
             <div class="">
               <h1 class="mb-3">Sri Lakshmi Balaji</h1>
               <h4 class="mb-3">Building Materials Supply</h4>
+              <h4 class="mb-3"> Srinivas Ch </h4>
               <br /><br /><br />
               <h5>All Types of Building Materials supplying and dealing.</h5>
               <h5>High Quality materials with best prices.</h5>
@@ -227,8 +229,7 @@
           <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10 card cform text-center">
-              <form
-                method="post"
+              <div
                 id="contactForm"
                 name="contactForm"
                 class="me-5 ms-3 my-4"
@@ -245,7 +246,7 @@
                     id="contactName"
                     name="contactName"
                     value=""
-                  />
+                  /><div id="er1"></div>
                 </div>
                 <br />
                 <div class="row form-group">
@@ -260,6 +261,7 @@
                     name="contactEmail"
                     value=""
                   />
+                  <div id="er2"></div>
                 </div>
                 <br />
                 <div class="row form-group">
@@ -273,7 +275,7 @@
                     id="contactPhone"
                     name="contactPhone"
                     value=""
-                  />
+                  /><div id="er3"></div>
                 </div>
                 <br />
                 <div class="row form-group">
@@ -285,20 +287,21 @@
                     id="contactMessage"
                     name="contactMessage"
                     style="margin-top: 0px; margin-bottom: 0px; height: 56px"
-                  ></textarea>
+                  ></textarea><div id="er4"></div>
                 </div>
                 <br />
                 <div class="row form-group">
                   <div class="col-sm-6"></div>
                   <button
                     style="width: 100px"
-                    class="submit btn btn-primary"
-                    type="submit"
+                    class="btn btn-primary"
+                    id="submitMessage"
+                    onclick="sendEmail();"
                   >
                     Submit
                   </button>
                 </div>
-              </form>
+              </div>
             </div>
             <div class="col-sm-1"></div>
           </div>
@@ -389,6 +392,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./app.js"></script>
+    
   </body>
 </html>

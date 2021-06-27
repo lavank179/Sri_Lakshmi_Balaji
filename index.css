@@ -112,3 +112,14 @@ footer a {
   background-color: #eaeaea;
   color: #059492;
 }
+
+
+.addGreen, .addGreen:focus {
+  box-shadow: none;
+  border: 2px green solid;
+}
+
+.addRed, .addRed:focus {
+  box-shadow: none;
+  border: 2px red solid;
+}
