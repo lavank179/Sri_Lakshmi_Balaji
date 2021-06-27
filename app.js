@@ -122,7 +122,6 @@ function sendEmail() {
         success: function (data) {
             let fromEmail = data[0].email;
             let fromPassword = data[0].password;
-            console.log(fromEmail, fromPassword);
 
             // send the email
             Email.send({
